@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="federacion_futbolModelStoreContainer" CdmEntityContainer="federacion_futbolEntities">
+    <EntitySetMapping Name="cliente">
+      <EntityTypeMapping TypeName="federacion_futbolModel.cliente">
+        <MappingFragment StoreEntitySet="cliente">
+          <ScalarProperty Name="CLI_ID" ColumnName="CLI_ID" />
+          <ScalarProperty Name="CLI_NOMBRES" ColumnName="CLI_NOMBRES" />
+          <ScalarProperty Name="CLI_APELLIDOS" ColumnName="CLI_APELLIDOS" />
+          <ScalarProperty Name="CLI_EMAIL" ColumnName="CLI_EMAIL" />
+          <ScalarProperty Name="CLI_TELEFONO" ColumnName="CLI_TELEFONO" />
+          <ScalarProperty Name="CLI_PASSWORD_HASH" ColumnName="CLI_PASSWORD_HASH" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="detalle_factura">
+      <EntityTypeMapping TypeName="federacion_futbolModel.detalle_factura">
+        <MappingFragment StoreEntitySet="detalle_factura">
+          <ScalarProperty Name="DETF_ID" ColumnName="DETF_ID" />
+          <ScalarProperty Name="LOC_ID" ColumnName="LOC_ID" />
+          <ScalarProperty Name="FAC_CODIGO" ColumnName="FAC_CODIGO" />
+          <ScalarProperty Name="DETF_CANTIDAD" ColumnName="DETF_CANTIDAD" />
+          <ScalarProperty Name="DETF_TOTAL" ColumnName="DETF_TOTAL" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="equipo">
+      <EntityTypeMapping TypeName="federacion_futbolModel.equipo">
+        <MappingFragment StoreEntitySet="equipo">
+          <ScalarProperty Name="EQU_ID" ColumnName="EQU_ID" />
+          <ScalarProperty Name="EQU_NOMBRE" ColumnName="EQU_NOMBRE" />
+          <ScalarProperty Name="EQUI_IMG" ColumnName="EQUI_IMG" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="estadio">
+      <EntityTypeMapping TypeName="federacion_futbolModel.estadio">
+        <MappingFragment StoreEntitySet="estadio">
+          <ScalarProperty Name="EST_ID" ColumnName="EST_ID" />
+          <ScalarProperty Name="EST_NOMBRE" ColumnName="EST_NOMBRE" />
+          <ScalarProperty Name="EST_CAPACIDAD" ColumnName="EST_CAPACIDAD" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="factura">
+      <EntityTypeMapping TypeName="federacion_futbolModel.factura">
+        <MappingFragment StoreEntitySet="factura">
+          <ScalarProperty Name="FAC_CODIGO" ColumnName="FAC_CODIGO" />
+          <ScalarProperty Name="CLI_ID" ColumnName="CLI_ID" />
+          <ScalarProperty Name="FAC_FECHA_EMISION" ColumnName="FAC_FECHA_EMISION" />
+          <ScalarProperty Name="FAC_SUBTOTAL" ColumnName="FAC_SUBTOTAL" />
+          <ScalarProperty Name="FAC_VALOR_IVA" ColumnName="FAC_VALOR_IVA" />
+          <ScalarProperty Name="FAC_TOTAL" ColumnName="FAC_TOTAL" />
+          <ScalarProperty Name="FAC_ID" ColumnName="FAC_ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="localidad_partido">
+      <EntityTypeMapping TypeName="federacion_futbolModel.localidad_partido">
+        <MappingFragment StoreEntitySet="localidad_partido">
+          <ScalarProperty Name="LOC_ID" ColumnName="LOC_ID" />
+          <ScalarProperty Name="PAR_ID" ColumnName="PAR_ID" />
+          <ScalarProperty Name="TIPL_ID" ColumnName="TIPL_ID" />
+          <ScalarProperty Name="LOC_PRECIO" ColumnName="LOC_PRECIO" />
+          <ScalarProperty Name="LOC_DISPONIBILIDAD" ColumnName="LOC_DISPONIBILIDAD" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="partido_futbol">
+      <EntityTypeMapping TypeName="federacion_futbolModel.partido_futbol">
+        <MappingFragment StoreEntitySet="partido_futbol">
+          <ScalarProperty Name="PAR_ID" ColumnName="PAR_ID" />
+          <ScalarProperty Name="EST_ID" ColumnName="EST_ID" />
+          <ScalarProperty Name="EQU_LOCAL" ColumnName="EQU_LOCAL" />
+          <ScalarProperty Name="EQU_VISITA" ColumnName="EQU_VISITA" />
+          <ScalarProperty Name="PAR_FECHA" ColumnName="PAR_FECHA" />
+          <ScalarProperty Name="PAR_HORA" ColumnName="PAR_HORA" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tipo_localidad">
+      <EntityTypeMapping TypeName="federacion_futbolModel.tipo_localidad">
+        <MappingFragment StoreEntitySet="tipo_localidad">
+          <ScalarProperty Name="TIPL_ID" ColumnName="TIPL_ID" />
+          <ScalarProperty Name="TIP_DESCRIPCION" ColumnName="TIP_DESCRIPCION" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

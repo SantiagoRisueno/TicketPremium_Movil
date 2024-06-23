@@ -1,0 +1,234 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="federacion_futbolModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="cliente">
+    <Key>
+      <PropertyRef Name="CLI_ID" />
+    </Key>
+    <Property Name="CLI_ID" Type="String" MaxLength="36" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="CLI_NOMBRES" Type="String" MaxLength="128" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="CLI_APELLIDOS" Type="String" MaxLength="128" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="CLI_EMAIL" Type="String" MaxLength="128" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="CLI_TELEFONO" Type="String" MaxLength="16" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="CLI_PASSWORD_HASH" Type="String" MaxLength="256" FixedLength="false" Unicode="false" Nullable="false" />
+    <NavigationProperty Name="factura" Relationship="Self.FK_CLIENTE_FACTURA" FromRole="cliente" ToRole="factura" />
+  </EntityType>
+  <EntityType Name="detalle_factura">
+    <Key>
+      <PropertyRef Name="DETF_ID" />
+    </Key>
+    <Property Name="DETF_ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="LOC_ID" Type="Int32" Nullable="false" />
+    <Property Name="FAC_CODIGO" Type="String" MaxLength="36" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="DETF_CANTIDAD" Type="Int32" Nullable="false" />
+    <Property Name="DETF_TOTAL" Type="Decimal" Precision="10" Scale="2" Nullable="false" />
+    <NavigationProperty Name="localidad_partido" Relationship="Self.FK_DETALLE_FACTURA_LOCALIDAD2" FromRole="detalle_factura" ToRole="localidad_partido" />
+    <NavigationProperty Name="factura" Relationship="Self.FK_DETALLE_FACTURA2" FromRole="detalle_factura" ToRole="factura" />
+  </EntityType>
+  <EntityType Name="equipo">
+    <Key>
+      <PropertyRef Name="EQU_ID" />
+    </Key>
+    <Property Name="EQU_ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="EQU_NOMBRE" Type="String" MaxLength="128" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="EQUI_IMG" Type="String" MaxLength="128" FixedLength="false" Unicode="false" Nullable="false" />
+    <NavigationProperty Name="partido_futbol" Relationship="Self.FK_EQUIPO1_PARTIDO2" FromRole="equipo" ToRole="partido_futbol" />
+    <NavigationProperty Name="partido_futbol1" Relationship="Self.FK_EQUIPO2_PARTIDO2" FromRole="equipo" ToRole="partido_futbol" />
+  </EntityType>
+  <EntityType Name="estadio">
+    <Key>
+      <PropertyRef Name="EST_ID" />
+    </Key>
+    <Property Name="EST_ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="EST_NOMBRE" Type="String" MaxLength="256" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="EST_CAPACIDAD" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="partido_futbol" Relationship="Self.FK_ESTADIO_PARTIDO2" FromRole="estadio" ToRole="partido_futbol" />
+  </EntityType>
+  <EntityType Name="factura">
+    <Key>
+      <PropertyRef Name="FAC_CODIGO" />
+    </Key>
+    <Property Name="FAC_CODIGO" Type="String" MaxLength="36" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="CLI_ID" Type="String" MaxLength="36" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="FAC_FECHA_EMISION" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="FAC_SUBTOTAL" Type="Decimal" Precision="10" Scale="2" Nullable="false" />
+    <Property Name="FAC_VALOR_IVA" Type="Decimal" Precision="10" Scale="2" Nullable="false" />
+    <Property Name="FAC_TOTAL" Type="Decimal" Precision="10" Scale="2" Nullable="false" />
+    <Property Name="FAC_ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <NavigationProperty Name="cliente" Relationship="Self.FK_CLIENTE_FACTURA" FromRole="factura" ToRole="cliente" />
+    <NavigationProperty Name="detalle_factura" Relationship="Self.FK_DETALLE_FACTURA2" FromRole="factura" ToRole="detalle_factura" />
+  </EntityType>
+  <EntityType Name="localidad_partido">
+    <Key>
+      <PropertyRef Name="LOC_ID" />
+    </Key>
+    <Property Name="LOC_ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="PAR_ID" Type="Int32" Nullable="false" />
+    <Property Name="TIPL_ID" Type="Int32" Nullable="false" />
+    <Property Name="LOC_PRECIO" Type="Decimal" Precision="10" Scale="2" Nullable="false" />
+    <Property Name="LOC_DISPONIBILIDAD" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="detalle_factura" Relationship="Self.FK_DETALLE_FACTURA_LOCALIDAD2" FromRole="localidad_partido" ToRole="detalle_factura" />
+    <NavigationProperty Name="partido_futbol" Relationship="Self.FK_LOCALIDAD_PARTIDO2" FromRole="localidad_partido" ToRole="partido_futbol" />
+    <NavigationProperty Name="tipo_localidad" Relationship="Self.FK_TIPO_LOCALIDAD2" FromRole="localidad_partido" ToRole="tipo_localidad" />
+  </EntityType>
+  <EntityType Name="partido_futbol">
+    <Key>
+      <PropertyRef Name="PAR_ID" />
+    </Key>
+    <Property Name="PAR_ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="EST_ID" Type="Int32" Nullable="false" />
+    <Property Name="EQU_LOCAL" Type="Int32" Nullable="false" />
+    <Property Name="EQU_VISITA" Type="Int32" Nullable="false" />
+    <Property Name="PAR_FECHA" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="PAR_HORA" Type="DateTime" Nullable="false" Precision="3" />
+    <NavigationProperty Name="equipo" Relationship="Self.FK_EQUIPO1_PARTIDO2" FromRole="partido_futbol" ToRole="equipo" />
+    <NavigationProperty Name="equipo1" Relationship="Self.FK_EQUIPO2_PARTIDO2" FromRole="partido_futbol" ToRole="equipo" />
+    <NavigationProperty Name="estadio" Relationship="Self.FK_ESTADIO_PARTIDO2" FromRole="partido_futbol" ToRole="estadio" />
+    <NavigationProperty Name="localidad_partido" Relationship="Self.FK_LOCALIDAD_PARTIDO2" FromRole="partido_futbol" ToRole="localidad_partido" />
+  </EntityType>
+  <EntityType Name="tipo_localidad">
+    <Key>
+      <PropertyRef Name="TIPL_ID" />
+    </Key>
+    <Property Name="TIPL_ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="TIP_DESCRIPCION" Type="String" MaxLength="128" FixedLength="false" Unicode="false" Nullable="false" />
+    <NavigationProperty Name="localidad_partido" Relationship="Self.FK_TIPO_LOCALIDAD2" FromRole="tipo_localidad" ToRole="localidad_partido" />
+  </EntityType>
+  <Association Name="FK_CLIENTE_FACTURA">
+    <End Role="cliente" Type="Self.cliente" Multiplicity="1" />
+    <End Role="factura" Type="Self.factura" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="cliente">
+        <PropertyRef Name="CLI_ID" />
+      </Principal>
+      <Dependent Role="factura">
+        <PropertyRef Name="CLI_ID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_DETALLE_FACTURA_LOCALIDAD2">
+    <End Role="localidad_partido" Type="Self.localidad_partido" Multiplicity="1" />
+    <End Role="detalle_factura" Type="Self.detalle_factura" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="localidad_partido">
+        <PropertyRef Name="LOC_ID" />
+      </Principal>
+      <Dependent Role="detalle_factura">
+        <PropertyRef Name="LOC_ID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_DETALLE_FACTURA2">
+    <End Role="factura" Type="Self.factura" Multiplicity="1" />
+    <End Role="detalle_factura" Type="Self.detalle_factura" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="factura">
+        <PropertyRef Name="FAC_CODIGO" />
+      </Principal>
+      <Dependent Role="detalle_factura">
+        <PropertyRef Name="FAC_CODIGO" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_EQUIPO1_PARTIDO2">
+    <End Role="equipo" Type="Self.equipo" Multiplicity="1" />
+    <End Role="partido_futbol" Type="Self.partido_futbol" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="equipo">
+        <PropertyRef Name="EQU_ID" />
+      </Principal>
+      <Dependent Role="partido_futbol">
+        <PropertyRef Name="EQU_VISITA" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_EQUIPO2_PARTIDO2">
+    <End Role="equipo" Type="Self.equipo" Multiplicity="1" />
+    <End Role="partido_futbol" Type="Self.partido_futbol" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="equipo">
+        <PropertyRef Name="EQU_ID" />
+      </Principal>
+      <Dependent Role="partido_futbol">
+        <PropertyRef Name="EQU_LOCAL" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_ESTADIO_PARTIDO2">
+    <End Role="estadio" Type="Self.estadio" Multiplicity="1" />
+    <End Role="partido_futbol" Type="Self.partido_futbol" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="estadio">
+        <PropertyRef Name="EST_ID" />
+      </Principal>
+      <Dependent Role="partido_futbol">
+        <PropertyRef Name="EST_ID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_LOCALIDAD_PARTIDO2">
+    <End Role="partido_futbol" Type="Self.partido_futbol" Multiplicity="1" />
+    <End Role="localidad_partido" Type="Self.localidad_partido" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="partido_futbol">
+        <PropertyRef Name="PAR_ID" />
+      </Principal>
+      <Dependent Role="localidad_partido">
+        <PropertyRef Name="PAR_ID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_TIPO_LOCALIDAD2">
+    <End Role="tipo_localidad" Type="Self.tipo_localidad" Multiplicity="1" />
+    <End Role="localidad_partido" Type="Self.localidad_partido" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tipo_localidad">
+        <PropertyRef Name="TIPL_ID" />
+      </Principal>
+      <Dependent Role="localidad_partido">
+        <PropertyRef Name="TIPL_ID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="federacion_futbolEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="cliente" EntityType="Self.cliente" />
+    <EntitySet Name="detalle_factura" EntityType="Self.detalle_factura" />
+    <EntitySet Name="equipo" EntityType="Self.equipo" />
+    <EntitySet Name="estadio" EntityType="Self.estadio" />
+    <EntitySet Name="factura" EntityType="Self.factura" />
+    <EntitySet Name="localidad_partido" EntityType="Self.localidad_partido" />
+    <EntitySet Name="partido_futbol" EntityType="Self.partido_futbol" />
+    <EntitySet Name="tipo_localidad" EntityType="Self.tipo_localidad" />
+    <AssociationSet Name="FK_CLIENTE_FACTURA" Association="Self.FK_CLIENTE_FACTURA">
+      <End Role="cliente" EntitySet="cliente" />
+      <End Role="factura" EntitySet="factura" />
+    </AssociationSet>
+    <AssociationSet Name="FK_DETALLE_FACTURA_LOCALIDAD2" Association="Self.FK_DETALLE_FACTURA_LOCALIDAD2">
+      <End Role="localidad_partido" EntitySet="localidad_partido" />
+      <End Role="detalle_factura" EntitySet="detalle_factura" />
+    </AssociationSet>
+    <AssociationSet Name="FK_DETALLE_FACTURA2" Association="Self.FK_DETALLE_FACTURA2">
+      <End Role="factura" EntitySet="factura" />
+      <End Role="detalle_factura" EntitySet="detalle_factura" />
+    </AssociationSet>
+    <AssociationSet Name="FK_EQUIPO1_PARTIDO2" Association="Self.FK_EQUIPO1_PARTIDO2">
+      <End Role="equipo" EntitySet="equipo" />
+      <End Role="partido_futbol" EntitySet="partido_futbol" />
+    </AssociationSet>
+    <AssociationSet Name="FK_EQUIPO2_PARTIDO2" Association="Self.FK_EQUIPO2_PARTIDO2">
+      <End Role="equipo" EntitySet="equipo" />
+      <End Role="partido_futbol" EntitySet="partido_futbol" />
+    </AssociationSet>
+    <AssociationSet Name="FK_ESTADIO_PARTIDO2" Association="Self.FK_ESTADIO_PARTIDO2">
+      <End Role="estadio" EntitySet="estadio" />
+      <End Role="partido_futbol" EntitySet="partido_futbol" />
+    </AssociationSet>
+    <AssociationSet Name="FK_LOCALIDAD_PARTIDO2" Association="Self.FK_LOCALIDAD_PARTIDO2">
+      <End Role="partido_futbol" EntitySet="partido_futbol" />
+      <End Role="localidad_partido" EntitySet="localidad_partido" />
+    </AssociationSet>
+    <AssociationSet Name="FK_TIPO_LOCALIDAD2" Association="Self.FK_TIPO_LOCALIDAD2">
+      <End Role="tipo_localidad" EntitySet="tipo_localidad" />
+      <End Role="localidad_partido" EntitySet="localidad_partido" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

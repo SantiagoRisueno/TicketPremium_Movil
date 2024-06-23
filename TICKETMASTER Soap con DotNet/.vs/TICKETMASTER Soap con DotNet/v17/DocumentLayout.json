@@ -1,0 +1,359 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\santy\\Documents\\ArquitecturaSoftware\\U1\\WS_TICKETPREMIUM_SOAP\\01_SERVIDOR\\TICKETMASTER Soap con DotNet\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{943C6CB9-CD39-4A8B-BF7F-026851825E55}|01. SERVIDOR\\01. SERVIDOR.csproj|c:\\users\\santy\\documents\\arquitecturasoftware\\u1\\ws_ticketpremium_soap\\01_servidor\\ticketmaster soap con dotnet\\01. servidor\\ec.edu.monster.modelo\\federacionmodel.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|",
+      "RelativeMoniker": "D:0:0:{943C6CB9-CD39-4A8B-BF7F-026851825E55}|01. SERVIDOR\\01. SERVIDOR.csproj|solutionrelative:01. servidor\\ec.edu.monster.modelo\\federacionmodel.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{943C6CB9-CD39-4A8B-BF7F-026851825E55}|01. SERVIDOR\\01. SERVIDOR.csproj|C:\\Users\\santy\\Documents\\ArquitecturaSoftware\\U1\\WS_TICKETPREMIUM_SOAP\\01_SERVIDOR\\TICKETMASTER Soap con DotNet\\01. servidor\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{943C6CB9-CD39-4A8B-BF7F-026851825E55}|01. SERVIDOR\\01. SERVIDOR.csproj|solutionrelative:01. servidor\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{943C6CB9-CD39-4A8B-BF7F-026851825E55}|01. SERVIDOR\\01. SERVIDOR.csproj|C:\\Users\\santy\\Documents\\ArquitecturaSoftware\\U1\\WS_TICKETPREMIUM_SOAP\\01_SERVIDOR\\TICKETMASTER Soap con DotNet\\01. servidor\\ec.edu.monster.servicio\\ifacturaservicio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{943C6CB9-CD39-4A8B-BF7F-026851825E55}|01. SERVIDOR\\01. SERVIDOR.csproj|solutionrelative:01. servidor\\ec.edu.monster.servicio\\ifacturaservicio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{943C6CB9-CD39-4A8B-BF7F-026851825E55}|01. SERVIDOR\\01. SERVIDOR.csproj|C:\\Users\\santy\\Documents\\ArquitecturaSoftware\\U1\\WS_TICKETPREMIUM_SOAP\\01_SERVIDOR\\TICKETMASTER Soap con DotNet\\01. servidor\\ec.edu.monster.servicio\\futbolservicio.svc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{943C6CB9-CD39-4A8B-BF7F-026851825E55}|01. SERVIDOR\\01. SERVIDOR.csproj|solutionrelative:01. servidor\\ec.edu.monster.servicio\\futbolservicio.svc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{943C6CB9-CD39-4A8B-BF7F-026851825E55}|01. SERVIDOR\\01. SERVIDOR.csproj|c:\\users\\santy\\documents\\arquitecturasoftware\\u1\\ws_ticketpremium_soap\\01_servidor\\ticketmaster soap con dotnet\\01. servidor\\ec.edu.monster.servicio\\facturaservicio.svc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{943C6CB9-CD39-4A8B-BF7F-026851825E55}|01. SERVIDOR\\01. SERVIDOR.csproj|solutionrelative:01. servidor\\ec.edu.monster.servicio\\facturaservicio.svc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{943C6CB9-CD39-4A8B-BF7F-026851825E55}|01. SERVIDOR\\01. SERVIDOR.csproj|C:\\Users\\santy\\Documents\\ArquitecturaSoftware\\U1\\WS_TICKETPREMIUM_SOAP\\01_SERVIDOR\\TICKETMASTER Soap con DotNet\\01. servidor\\ec.edu.monster.servicio\\autenticacionservicio.svc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{943C6CB9-CD39-4A8B-BF7F-026851825E55}|01. SERVIDOR\\01. SERVIDOR.csproj|solutionrelative:01. servidor\\ec.edu.monster.servicio\\autenticacionservicio.svc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{943C6CB9-CD39-4A8B-BF7F-026851825E55}|01. SERVIDOR\\01. SERVIDOR.csproj|C:\\Users\\santy\\Documents\\ArquitecturaSoftware\\U1\\WS_TICKETPREMIUM_SOAP\\01_SERVIDOR\\TICKETMASTER Soap con DotNet\\01. servidor\\ec.edu.monster.servicio\\iautenticacionservicio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{943C6CB9-CD39-4A8B-BF7F-026851825E55}|01. SERVIDOR\\01. SERVIDOR.csproj|solutionrelative:01. servidor\\ec.edu.monster.servicio\\iautenticacionservicio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{943C6CB9-CD39-4A8B-BF7F-026851825E55}|01. SERVIDOR\\01. SERVIDOR.csproj|C:\\Users\\santy\\Documents\\ArquitecturaSoftware\\U1\\WS_TICKETPREMIUM_SOAP\\01_SERVIDOR\\TICKETMASTER Soap con DotNet\\01. servidor\\ec.edu.monster.dto\\partidofutboldto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{943C6CB9-CD39-4A8B-BF7F-026851825E55}|01. SERVIDOR\\01. SERVIDOR.csproj|solutionrelative:01. servidor\\ec.edu.monster.dto\\partidofutboldto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{943C6CB9-CD39-4A8B-BF7F-026851825E55}|01. SERVIDOR\\01. SERVIDOR.csproj|C:\\Users\\santy\\Documents\\ArquitecturaSoftware\\U1\\WS_TICKETPREMIUM_SOAP\\01_SERVIDOR\\TICKETMASTER Soap con DotNet\\01. servidor\\ec.edu.monster.servicio\\ifutbolservicio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{943C6CB9-CD39-4A8B-BF7F-026851825E55}|01. SERVIDOR\\01. SERVIDOR.csproj|solutionrelative:01. servidor\\ec.edu.monster.servicio\\ifutbolservicio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{943C6CB9-CD39-4A8B-BF7F-026851825E55}|01. SERVIDOR\\01. SERVIDOR.csproj|C:\\Users\\santy\\Documents\\ArquitecturaSoftware\\U1\\WS_TICKETPREMIUM_SOAP\\01_SERVIDOR\\TICKETMASTER Soap con DotNet\\01. servidor\\ec.edu.monster.dto\\facturadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{943C6CB9-CD39-4A8B-BF7F-026851825E55}|01. SERVIDOR\\01. SERVIDOR.csproj|solutionrelative:01. servidor\\ec.edu.monster.dto\\facturadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{943C6CB9-CD39-4A8B-BF7F-026851825E55}|01. SERVIDOR\\01. SERVIDOR.csproj|C:\\Users\\santy\\Documents\\ArquitecturaSoftware\\U1\\WS_TICKETPREMIUM_SOAP\\01_SERVIDOR\\TICKETMASTER Soap con DotNet\\01. servidor\\ec.edu.monster.dto\\clientedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{943C6CB9-CD39-4A8B-BF7F-026851825E55}|01. SERVIDOR\\01. SERVIDOR.csproj|solutionrelative:01. servidor\\ec.edu.monster.dto\\clientedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{943C6CB9-CD39-4A8B-BF7F-026851825E55}|01. SERVIDOR\\01. SERVIDOR.csproj|C:\\Users\\santy\\Documents\\ArquitecturaSoftware\\U1\\WS_TICKETPREMIUM_SOAP\\01_SERVIDOR\\TICKETMASTER Soap con DotNet\\01. servidor\\ec.edu.monster.dto\\detallefacturadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{943C6CB9-CD39-4A8B-BF7F-026851825E55}|01. SERVIDOR\\01. SERVIDOR.csproj|solutionrelative:01. servidor\\ec.edu.monster.dto\\detallefacturadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{943C6CB9-CD39-4A8B-BF7F-026851825E55}|01. SERVIDOR\\01. SERVIDOR.csproj|C:\\Users\\santy\\Documents\\ArquitecturaSoftware\\U1\\WS_TICKETPREMIUM_SOAP\\01_SERVIDOR\\TICKETMASTER Soap con DotNet\\01. servidor\\iservice1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{943C6CB9-CD39-4A8B-BF7F-026851825E55}|01. SERVIDOR\\01. SERVIDOR.csproj|solutionrelative:01. servidor\\iservice1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{943C6CB9-CD39-4A8B-BF7F-026851825E55}|01. SERVIDOR\\01. SERVIDOR.csproj|C:\\Users\\santy\\Documents\\ArquitecturaSoftware\\U1\\WS_TICKETPREMIUM_SOAP\\01_SERVIDOR\\TICKETMASTER Soap con DotNet\\01. servidor\\web.release.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{943C6CB9-CD39-4A8B-BF7F-026851825E55}|01. SERVIDOR\\01. SERVIDOR.csproj|solutionrelative:01. servidor\\web.release.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{943C6CB9-CD39-4A8B-BF7F-026851825E55}|01. SERVIDOR\\01. SERVIDOR.csproj|C:\\Users\\santy\\Documents\\ArquitecturaSoftware\\U1\\WS_TICKETPREMIUM_SOAP\\01_SERVIDOR\\TICKETMASTER Soap con DotNet\\01. servidor\\web.debug.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{943C6CB9-CD39-4A8B-BF7F-026851825E55}|01. SERVIDOR\\01. SERVIDOR.csproj|solutionrelative:01. servidor\\web.debug.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{943C6CB9-CD39-4A8B-BF7F-026851825E55}|01. SERVIDOR\\01. SERVIDOR.csproj|C:\\Users\\santy\\Documents\\ArquitecturaSoftware\\U1\\WS_TICKETPREMIUM_SOAP\\01_SERVIDOR\\TICKETMASTER Soap con DotNet\\01. servidor\\service1.svc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{943C6CB9-CD39-4A8B-BF7F-026851825E55}|01. SERVIDOR\\01. SERVIDOR.csproj|solutionrelative:01. servidor\\service1.svc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{943C6CB9-CD39-4A8B-BF7F-026851825E55}|01. SERVIDOR\\01. SERVIDOR.csproj|C:\\Users\\santy\\Documents\\ArquitecturaSoftware\\U1\\WS_TICKETPREMIUM_SOAP\\01_SERVIDOR\\TICKETMASTER Soap con DotNet\\01. servidor\\ec.edu.monster.dto\\localidadpartidodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{943C6CB9-CD39-4A8B-BF7F-026851825E55}|01. SERVIDOR\\01. SERVIDOR.csproj|solutionrelative:01. servidor\\ec.edu.monster.dto\\localidadpartidodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{943C6CB9-CD39-4A8B-BF7F-026851825E55}|01. SERVIDOR\\01. SERVIDOR.csproj|C:\\Users\\santy\\Documents\\ArquitecturaSoftware\\U1\\WS_TICKETPREMIUM_SOAP\\01_SERVIDOR\\TICKETMASTER Soap con DotNet\\01. servidor\\ec.edu.monster.dto\\datosfacturafinaldto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{943C6CB9-CD39-4A8B-BF7F-026851825E55}|01. SERVIDOR\\01. SERVIDOR.csproj|solutionrelative:01. servidor\\ec.edu.monster.dto\\datosfacturafinaldto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{943C6CB9-CD39-4A8B-BF7F-026851825E55}|01. SERVIDOR\\01. SERVIDOR.csproj|C:\\Users\\santy\\Documents\\ArquitecturaSoftware\\U1\\WS_TICKETPREMIUM_SOAP\\01_SERVIDOR\\TICKETMASTER Soap con DotNet\\01. servidor\\ec.edu.monster.dto\\valoresfacturadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{943C6CB9-CD39-4A8B-BF7F-026851825E55}|01. SERVIDOR\\01. SERVIDOR.csproj|solutionrelative:01. servidor\\ec.edu.monster.dto\\valoresfacturadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{943C6CB9-CD39-4A8B-BF7F-026851825E55}|01. SERVIDOR\\01. SERVIDOR.csproj|C:\\Users\\santy\\Documents\\ArquitecturaSoftware\\U1\\WS_TICKETPREMIUM_SOAP\\01_SERVIDOR\\TICKETMASTER Soap con DotNet\\01. servidor\\packages.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{943C6CB9-CD39-4A8B-BF7F-026851825E55}|01. SERVIDOR\\01. SERVIDOR.csproj|solutionrelative:01. servidor\\packages.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "FederacionModel.edmx [Diagram1]",
+              "DocumentMoniker": "C:\\Users\\santy\\Documents\\ArquitecturaSoftware\\U1\\WS_TICKETPREMIUM_SOAP\\01_SERVIDOR\\TICKETMASTER Soap con DotNet\\01. SERVIDOR\\ec.edu.monster.modelo\\FederacionModel.edmx",
+              "RelativeDocumentMoniker": "01. SERVIDOR\\ec.edu.monster.modelo\\FederacionModel.edmx",
+              "ToolTip": "C:\\Users\\santy\\Documents\\ArquitecturaSoftware\\U1\\WS_TICKETPREMIUM_SOAP\\01_SERVIDOR\\TICKETMASTER Soap con DotNet\\01. SERVIDOR\\ec.edu.monster.modelo\\FederacionModel.edmx [Diagram1]",
+              "RelativeToolTip": "01. SERVIDOR\\ec.edu.monster.modelo\\FederacionModel.edmx [Diagram1]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001116|",
+              "WhenOpened": "2024-06-23T01:45:14.065Z",
+              "EditorCaption": " [Diagram1]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "FutbolServicio.svc.cs",
+              "DocumentMoniker": "C:\\Users\\santy\\Documents\\ArquitecturaSoftware\\U1\\WS_TICKETPREMIUM_SOAP\\01_SERVIDOR\\TICKETMASTER Soap con DotNet\\01. SERVIDOR\\ec.edu.monster.servicio\\FutbolServicio.svc.cs",
+              "RelativeDocumentMoniker": "01. SERVIDOR\\ec.edu.monster.servicio\\FutbolServicio.svc.cs",
+              "ToolTip": "C:\\Users\\santy\\Documents\\ArquitecturaSoftware\\U1\\WS_TICKETPREMIUM_SOAP\\01_SERVIDOR\\TICKETMASTER Soap con DotNet\\01. SERVIDOR\\ec.edu.monster.servicio\\FutbolServicio.svc.cs",
+              "RelativeToolTip": "01. SERVIDOR\\ec.edu.monster.servicio\\FutbolServicio.svc.cs",
+              "ViewState": "AQIAACAAAAAAAAAAAAAAwB4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-17T02:11:34.005Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "IFacturaServicio.cs",
+              "DocumentMoniker": "C:\\Users\\santy\\Documents\\ArquitecturaSoftware\\U1\\WS_TICKETPREMIUM_SOAP\\01_SERVIDOR\\TICKETMASTER Soap con DotNet\\01. SERVIDOR\\ec.edu.monster.servicio\\IFacturaServicio.cs",
+              "RelativeDocumentMoniker": "01. SERVIDOR\\ec.edu.monster.servicio\\IFacturaServicio.cs",
+              "ToolTip": "C:\\Users\\santy\\Documents\\ArquitecturaSoftware\\U1\\WS_TICKETPREMIUM_SOAP\\01_SERVIDOR\\TICKETMASTER Soap con DotNet\\01. SERVIDOR\\ec.edu.monster.servicio\\IFacturaServicio.cs",
+              "RelativeToolTip": "01. SERVIDOR\\ec.edu.monster.servicio\\IFacturaServicio.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAABEAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-15T23:41:47.938Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "FacturaServicio.svc.cs",
+              "DocumentMoniker": "C:\\Users\\santy\\Documents\\ArquitecturaSoftware\\U1\\WS_TICKETPREMIUM_SOAP\\01_SERVIDOR\\TICKETMASTER Soap con DotNet\\01. SERVIDOR\\ec.edu.monster.servicio\\FacturaServicio.svc.cs",
+              "RelativeDocumentMoniker": "01. SERVIDOR\\ec.edu.monster.servicio\\FacturaServicio.svc.cs",
+              "ToolTip": "C:\\Users\\santy\\Documents\\ArquitecturaSoftware\\U1\\WS_TICKETPREMIUM_SOAP\\01_SERVIDOR\\TICKETMASTER Soap con DotNet\\01. SERVIDOR\\ec.edu.monster.servicio\\FacturaServicio.svc.cs",
+              "RelativeToolTip": "01. SERVIDOR\\ec.edu.monster.servicio\\FacturaServicio.svc.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAsAAAAuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-15T23:42:27.718Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "IAutenticacionServicio.cs",
+              "DocumentMoniker": "C:\\Users\\santy\\Documents\\ArquitecturaSoftware\\U1\\WS_TICKETPREMIUM_SOAP\\01_SERVIDOR\\TICKETMASTER Soap con DotNet\\01. SERVIDOR\\ec.edu.monster.servicio\\IAutenticacionServicio.cs",
+              "RelativeDocumentMoniker": "01. SERVIDOR\\ec.edu.monster.servicio\\IAutenticacionServicio.cs",
+              "ToolTip": "C:\\Users\\santy\\Documents\\ArquitecturaSoftware\\U1\\WS_TICKETPREMIUM_SOAP\\01_SERVIDOR\\TICKETMASTER Soap con DotNet\\01. SERVIDOR\\ec.edu.monster.servicio\\IAutenticacionServicio.cs",
+              "RelativeToolTip": "01. SERVIDOR\\ec.edu.monster.servicio\\IAutenticacionServicio.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-15T22:32:00.898Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "PartidoFutbolDTO.cs",
+              "DocumentMoniker": "C:\\Users\\santy\\Documents\\ArquitecturaSoftware\\U1\\WS_TICKETPREMIUM_SOAP\\01_SERVIDOR\\TICKETMASTER Soap con DotNet\\01. SERVIDOR\\ec.edu.monster.dto\\PartidoFutbolDTO.cs",
+              "RelativeDocumentMoniker": "01. SERVIDOR\\ec.edu.monster.dto\\PartidoFutbolDTO.cs",
+              "ToolTip": "C:\\Users\\santy\\Documents\\ArquitecturaSoftware\\U1\\WS_TICKETPREMIUM_SOAP\\01_SERVIDOR\\TICKETMASTER Soap con DotNet\\01. SERVIDOR\\ec.edu.monster.dto\\PartidoFutbolDTO.cs",
+              "RelativeToolTip": "01. SERVIDOR\\ec.edu.monster.dto\\PartidoFutbolDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-17T02:05:52.584Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Web.config",
+              "DocumentMoniker": "C:\\Users\\santy\\Documents\\ArquitecturaSoftware\\U1\\WS_TICKETPREMIUM_SOAP\\01_SERVIDOR\\TICKETMASTER Soap con DotNet\\01. SERVIDOR\\Web.config",
+              "RelativeDocumentMoniker": "01. SERVIDOR\\Web.config",
+              "ToolTip": "C:\\Users\\santy\\Documents\\ArquitecturaSoftware\\U1\\WS_TICKETPREMIUM_SOAP\\01_SERVIDOR\\TICKETMASTER Soap con DotNet\\01. SERVIDOR\\Web.config",
+              "RelativeToolTip": "01. SERVIDOR\\Web.config",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAADIAAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2024-06-15T22:48:37.502Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AutenticacionServicio.svc.cs",
+              "DocumentMoniker": "C:\\Users\\santy\\Documents\\ArquitecturaSoftware\\U1\\WS_TICKETPREMIUM_SOAP\\01_SERVIDOR\\TICKETMASTER Soap con DotNet\\01. SERVIDOR\\ec.edu.monster.servicio\\AutenticacionServicio.svc.cs",
+              "RelativeDocumentMoniker": "01. SERVIDOR\\ec.edu.monster.servicio\\AutenticacionServicio.svc.cs",
+              "ToolTip": "C:\\Users\\santy\\Documents\\ArquitecturaSoftware\\U1\\WS_TICKETPREMIUM_SOAP\\01_SERVIDOR\\TICKETMASTER Soap con DotNet\\01. SERVIDOR\\ec.edu.monster.servicio\\AutenticacionServicio.svc.cs",
+              "RelativeToolTip": "01. SERVIDOR\\ec.edu.monster.servicio\\AutenticacionServicio.svc.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAD4AAAAyAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-15T22:32:06.991Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "IFutbolServicio.cs",
+              "DocumentMoniker": "C:\\Users\\santy\\Documents\\ArquitecturaSoftware\\U1\\WS_TICKETPREMIUM_SOAP\\01_SERVIDOR\\TICKETMASTER Soap con DotNet\\01. SERVIDOR\\ec.edu.monster.servicio\\IFutbolServicio.cs",
+              "RelativeDocumentMoniker": "01. SERVIDOR\\ec.edu.monster.servicio\\IFutbolServicio.cs",
+              "ToolTip": "C:\\Users\\santy\\Documents\\ArquitecturaSoftware\\U1\\WS_TICKETPREMIUM_SOAP\\01_SERVIDOR\\TICKETMASTER Soap con DotNet\\01. SERVIDOR\\ec.edu.monster.servicio\\IFutbolServicio.cs",
+              "RelativeToolTip": "01. SERVIDOR\\ec.edu.monster.servicio\\IFutbolServicio.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABAAAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-17T02:04:30.631Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "FacturaDTO.cs",
+              "DocumentMoniker": "C:\\Users\\santy\\Documents\\ArquitecturaSoftware\\U1\\WS_TICKETPREMIUM_SOAP\\01_SERVIDOR\\TICKETMASTER Soap con DotNet\\01. SERVIDOR\\ec.edu.monster.dto\\FacturaDTO.cs",
+              "RelativeDocumentMoniker": "01. SERVIDOR\\ec.edu.monster.dto\\FacturaDTO.cs",
+              "ToolTip": "C:\\Users\\santy\\Documents\\ArquitecturaSoftware\\U1\\WS_TICKETPREMIUM_SOAP\\01_SERVIDOR\\TICKETMASTER Soap con DotNet\\01. SERVIDOR\\ec.edu.monster.dto\\FacturaDTO.cs",
+              "RelativeToolTip": "01. SERVIDOR\\ec.edu.monster.dto\\FacturaDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAA0AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-17T01:41:56.132Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ClienteDTO.cs",
+              "DocumentMoniker": "C:\\Users\\santy\\Documents\\ArquitecturaSoftware\\U1\\WS_TICKETPREMIUM_SOAP\\01_SERVIDOR\\TICKETMASTER Soap con DotNet\\01. SERVIDOR\\ec.edu.monster.dto\\ClienteDTO.cs",
+              "RelativeDocumentMoniker": "01. SERVIDOR\\ec.edu.monster.dto\\ClienteDTO.cs",
+              "ToolTip": "C:\\Users\\santy\\Documents\\ArquitecturaSoftware\\U1\\WS_TICKETPREMIUM_SOAP\\01_SERVIDOR\\TICKETMASTER Soap con DotNet\\01. SERVIDOR\\ec.edu.monster.dto\\ClienteDTO.cs",
+              "RelativeToolTip": "01. SERVIDOR\\ec.edu.monster.dto\\ClienteDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAwAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-15T23:27:26.357Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "DetalleFacturaDTO.cs",
+              "DocumentMoniker": "C:\\Users\\santy\\Documents\\ArquitecturaSoftware\\U1\\WS_TICKETPREMIUM_SOAP\\01_SERVIDOR\\TICKETMASTER Soap con DotNet\\01. SERVIDOR\\ec.edu.monster.dto\\DetalleFacturaDTO.cs",
+              "RelativeDocumentMoniker": "01. SERVIDOR\\ec.edu.monster.dto\\DetalleFacturaDTO.cs",
+              "ToolTip": "C:\\Users\\santy\\Documents\\ArquitecturaSoftware\\U1\\WS_TICKETPREMIUM_SOAP\\01_SERVIDOR\\TICKETMASTER Soap con DotNet\\01. SERVIDOR\\ec.edu.monster.dto\\DetalleFacturaDTO.cs",
+              "RelativeToolTip": "01. SERVIDOR\\ec.edu.monster.dto\\DetalleFacturaDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-16T00:09:51.124Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Web.Release.config",
+              "DocumentMoniker": "C:\\Users\\santy\\Documents\\ArquitecturaSoftware\\U1\\WS_TICKETPREMIUM_SOAP\\01_SERVIDOR\\TICKETMASTER Soap con DotNet\\01. SERVIDOR\\Web.Release.config",
+              "RelativeDocumentMoniker": "01. SERVIDOR\\Web.Release.config",
+              "ToolTip": "C:\\Users\\santy\\Documents\\ArquitecturaSoftware\\U1\\WS_TICKETPREMIUM_SOAP\\01_SERVIDOR\\TICKETMASTER Soap con DotNet\\01. SERVIDOR\\Web.Release.config",
+              "RelativeToolTip": "01. SERVIDOR\\Web.Release.config",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2024-06-16T00:30:32.909Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "IService1.cs",
+              "DocumentMoniker": "C:\\Users\\santy\\Documents\\ArquitecturaSoftware\\U1\\WS_TICKETPREMIUM_SOAP\\01_SERVIDOR\\TICKETMASTER Soap con DotNet\\01. SERVIDOR\\IService1.cs",
+              "RelativeDocumentMoniker": "01. SERVIDOR\\IService1.cs",
+              "ToolTip": "C:\\Users\\santy\\Documents\\ArquitecturaSoftware\\U1\\WS_TICKETPREMIUM_SOAP\\01_SERVIDOR\\TICKETMASTER Soap con DotNet\\01. SERVIDOR\\IService1.cs",
+              "RelativeToolTip": "01. SERVIDOR\\IService1.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-16T00:30:10.706Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Service1.svc.cs",
+              "DocumentMoniker": "C:\\Users\\santy\\Documents\\ArquitecturaSoftware\\U1\\WS_TICKETPREMIUM_SOAP\\01_SERVIDOR\\TICKETMASTER Soap con DotNet\\01. SERVIDOR\\Service1.svc.cs",
+              "RelativeDocumentMoniker": "01. SERVIDOR\\Service1.svc.cs",
+              "ToolTip": "C:\\Users\\santy\\Documents\\ArquitecturaSoftware\\U1\\WS_TICKETPREMIUM_SOAP\\01_SERVIDOR\\TICKETMASTER Soap con DotNet\\01. SERVIDOR\\Service1.svc.cs",
+              "RelativeToolTip": "01. SERVIDOR\\Service1.svc.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-16T00:30:22.406Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Web.Debug.config",
+              "DocumentMoniker": "C:\\Users\\santy\\Documents\\ArquitecturaSoftware\\U1\\WS_TICKETPREMIUM_SOAP\\01_SERVIDOR\\TICKETMASTER Soap con DotNet\\01. SERVIDOR\\Web.Debug.config",
+              "RelativeDocumentMoniker": "01. SERVIDOR\\Web.Debug.config",
+              "ToolTip": "C:\\Users\\santy\\Documents\\ArquitecturaSoftware\\U1\\WS_TICKETPREMIUM_SOAP\\01_SERVIDOR\\TICKETMASTER Soap con DotNet\\01. SERVIDOR\\Web.Debug.config",
+              "RelativeToolTip": "01. SERVIDOR\\Web.Debug.config",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2024-06-16T00:30:31.156Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "LocalidadPartidoDTO.cs",
+              "DocumentMoniker": "C:\\Users\\santy\\Documents\\ArquitecturaSoftware\\U1\\WS_TICKETPREMIUM_SOAP\\01_SERVIDOR\\TICKETMASTER Soap con DotNet\\01. SERVIDOR\\ec.edu.monster.dto\\LocalidadPartidoDTO.cs",
+              "RelativeDocumentMoniker": "01. SERVIDOR\\ec.edu.monster.dto\\LocalidadPartidoDTO.cs",
+              "ToolTip": "C:\\Users\\santy\\Documents\\ArquitecturaSoftware\\U1\\WS_TICKETPREMIUM_SOAP\\01_SERVIDOR\\TICKETMASTER Soap con DotNet\\01. SERVIDOR\\ec.edu.monster.dto\\LocalidadPartidoDTO.cs",
+              "RelativeToolTip": "01. SERVIDOR\\ec.edu.monster.dto\\LocalidadPartidoDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-16T00:11:25.268Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "DatosFacturaFinalDTO.cs",
+              "DocumentMoniker": "C:\\Users\\santy\\Documents\\ArquitecturaSoftware\\U1\\WS_TICKETPREMIUM_SOAP\\01_SERVIDOR\\TICKETMASTER Soap con DotNet\\01. SERVIDOR\\ec.edu.monster.dto\\DatosFacturaFinalDTO.cs",
+              "RelativeDocumentMoniker": "01. SERVIDOR\\ec.edu.monster.dto\\DatosFacturaFinalDTO.cs",
+              "ToolTip": "C:\\Users\\santy\\Documents\\ArquitecturaSoftware\\U1\\WS_TICKETPREMIUM_SOAP\\01_SERVIDOR\\TICKETMASTER Soap con DotNet\\01. SERVIDOR\\ec.edu.monster.dto\\DatosFacturaFinalDTO.cs",
+              "RelativeToolTip": "01. SERVIDOR\\ec.edu.monster.dto\\DatosFacturaFinalDTO.cs",
+              "ViewState": "AQIAAAQAAAAAAAAAAAAYwBUAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-15T23:53:32.17Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "ValoresFacturaDTO.cs",
+              "DocumentMoniker": "C:\\Users\\santy\\Documents\\ArquitecturaSoftware\\U1\\WS_TICKETPREMIUM_SOAP\\01_SERVIDOR\\TICKETMASTER Soap con DotNet\\01. SERVIDOR\\ec.edu.monster.dto\\ValoresFacturaDTO.cs",
+              "RelativeDocumentMoniker": "01. SERVIDOR\\ec.edu.monster.dto\\ValoresFacturaDTO.cs",
+              "ToolTip": "C:\\Users\\santy\\Documents\\ArquitecturaSoftware\\U1\\WS_TICKETPREMIUM_SOAP\\01_SERVIDOR\\TICKETMASTER Soap con DotNet\\01. SERVIDOR\\ec.edu.monster.dto\\ValoresFacturaDTO.cs",
+              "RelativeToolTip": "01. SERVIDOR\\ec.edu.monster.dto\\ValoresFacturaDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-15T23:48:47.459Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "packages.config",
+              "DocumentMoniker": "C:\\Users\\santy\\Documents\\ArquitecturaSoftware\\U1\\WS_TICKETPREMIUM_SOAP\\01_SERVIDOR\\TICKETMASTER Soap con DotNet\\01. SERVIDOR\\packages.config",
+              "RelativeDocumentMoniker": "01. SERVIDOR\\packages.config",
+              "ToolTip": "C:\\Users\\santy\\Documents\\ArquitecturaSoftware\\U1\\WS_TICKETPREMIUM_SOAP\\01_SERVIDOR\\TICKETMASTER Soap con DotNet\\01. SERVIDOR\\packages.config",
+              "RelativeToolTip": "01. SERVIDOR\\packages.config",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2024-06-15T22:52:15.397Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

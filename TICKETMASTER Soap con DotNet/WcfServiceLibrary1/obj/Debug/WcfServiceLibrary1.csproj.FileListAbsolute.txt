@@ -1,0 +1,2 @@
+C:\Users\andre\Documents\ARQ-SOFTWARE\ESA\TicketMaster SOAP con DotNet\TICKETMASTER Soap con DotNet\WcfServiceLibrary1\obj\Debug\WcfServiceLibrary1.csproj.AssemblyReference.cache
+C:\Users\andre\Documents\ARQ-SOFTWARE\ESA\TicketMaster SOAP con DotNet\TICKETMASTER Soap con DotNet\WcfServiceLibrary1\obj\Debug\WcfServiceLibrary1.csproj.CoreCompileInputs.cache
